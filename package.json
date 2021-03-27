@@ -1,0 +1,31 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "studies content",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-build": "cd client && npm run build",
+    "client": "cd client && npm start",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmaffioli/pokeApi.git"
+  },
+  "author": "vmaffioli <vinimaffioli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmaffioli/pokeApi/issues"
+  },
+  "homepage": "https://github.com/vmaffioli/pokeApi#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "concurrently": "^3.5.0"
+  }
+}

@@ -9,7 +9,8 @@
 
 	body{
 		background-image: url('./assets/pokemon-pokemony-pokemon-pikachu-bulbasavr-charmander-skvirt.jpg');
-		background-size: cover
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	#footer{
 		position: absolute;

@@ -7,10 +7,37 @@
 
 @media all {
 
+	body{
+		background-image: url('./assets/pokemon-pokemony-pokemon-pikachu-bulbasavr-charmander-skvirt.jpg');
+		background-size: cover
+	}
+	#footer{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0, 0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	#header{
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgb(0, 0, 0, 0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	a{
+		color:lightblue
+	}
+	a:hover{
+		color:red
+	}
 	div#pokedex
 	{
 		width: 750px;
 		margin: 50px auto 0 auto;
+
 	}
 
 	div#left
@@ -678,6 +705,7 @@
 		width: 350px;
 		height: 80px;
 		background-color: #fff;
+		opacity: 0;
 
 		border-top-right-radius: 30px;
 		-webkit-border-top-right-radius: 30px;
@@ -690,6 +718,8 @@
 		width: 216px;
 		height: 100px;
 		background-color: #fff;
+		opacity: 0;
+
 		float: left;
 
 		position: absolute;
@@ -1016,5 +1046,6 @@
 	{
 		display: none;
 	}
+
 
 }

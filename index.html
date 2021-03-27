@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Node Pokedex</title>
     <link href="./style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="pokedata.js"></script>
 </head>
 
 <body>
+    <p id="header">The objective of this App is consumes an API and print its results in a Page using Only Node.js</p>
     <div id="pokedex">
         <div id="left">
             <div id="logo"></div>
@@ -35,8 +36,7 @@
                     <div id="buttontopPicture2"></div>
                 </div>
                 <div id="picture">
-                    <img id="img001" src="" alt="pokeImg"
-                        height="170" />
+                    <img id="img001" src="" alt="pokeImg" height="170" />
                 </div>
                 <div id="buttonbottomPicture"></div>
                 <div id="speakers">
@@ -51,19 +51,19 @@
             <div id="barbutton2"></div>
             <div id="cross">
                 <div id="leftcross">
-                    <div id="leftT"onclick=prevPokemon()></div>
+                    <div id="leftT" onclick=prevPokemon()></div>
                 </div>
-                <div id="topcross"onclick=next10Pokemon()>
+                <div id="topcross" onclick=next10Pokemon()>
                     <div id="upT"></div>
                 </div>
                 <div id="rightcross">
-                    <div id="rightT"onclick=nextPokemon()></div>
+                    <div id="rightT" onclick=nextPokemon()></div>
                 </div>
                 <div id="midcross">
                     <div id="midCircle"></div>
                 </div>
                 <div id="botcross">
-                    <div id="downT"onclick=prev10Pokemon()></div>
+                    <div id="downT" onclick=prev10Pokemon()></div>
                 </div>
             </div>
         </div>
@@ -100,6 +100,10 @@
             <div id="curve2_right"></div>
         </div>
     </div>
+
+    <p id="footer">Node app created by vmaffioli for educational purposes <a href="https://github.com/vmaffioli/pokeApi">>> github:vmaffioli/pokeApi <<</a> <br />
+   Credits for HTML Template <a href="https://codepen.io/Bidji/pen/MYdPwo?editors=0100">>> codepen/Bidji <<</a>
+
 
 </body>
 

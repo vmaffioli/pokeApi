@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    </div>
     <p id="header">The objective of this App is consumes an API and print its results in a Page using Only Node.js</p>
     <div id="pokedex">
         <div id="left">
@@ -46,7 +47,7 @@
                     <div class="sp"></div>
                 </div>
             </div>
-            <div id="bigbluebutton"></div>
+            <div id="bigbluebutton" onclick=goToDetails()></div>
             <div id="barbutton1"></div>
             <div id="barbutton2"></div>
             <div id="cross">
@@ -92,8 +93,14 @@
             <div id="miniButtonGlass5"></div>
             <div id="barbutton3"></div>
             <div id="barbutton4"></div>
-            <div id="yellowBox1"></div>
-            <div id="yellowBox2"></div>
+            <div id="yellowBox1">
+                <input id="input001" type="text" placeholder="#id">
+                <input id="input001_button" type="submit" value=">" onclick=getInputId()>
+            </div>
+            <div id="yellowBox2">
+                <input id="input002" type="text" placeholder="#name">
+                <input id="input001_button" type="submit" value=">" onclick=getInputName()>
+            </div>
             <div id="bg_curve1_right"></div>
             <div id="bg_curve2_right"></div>
             <div id="curve1_right"></div>
@@ -101,8 +108,9 @@
         </div>
     </div>
 
-    <p id="footer">Node app created by vmaffioli for educational purposes <a href="https://github.com/vmaffioli/pokeApi"> -- github:vmaffioli/pokeApi -- </a> <br />
-                Credits for HTML Template <a href="https://codepen.io/Bidji/pen/MYdPwo?editors=0100"> -- codepen/Bidji -- </a>
+    <p id="footer">Node app created by vmaffioli for educational purposes <a
+            href="https://github.com/vmaffioli/pokeApi"> -- github:vmaffioli/pokeApi -- </a> <br />
+        Credits for HTML Template <a href="https://codepen.io/Bidji/pen/MYdPwo?editors=0100"> -- codepen/Bidji -- </a>
 
 
 </body>

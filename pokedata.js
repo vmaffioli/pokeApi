@@ -70,6 +70,8 @@ async function getPokeData(pokemon) {
 }
 
 
+    
+
 function nextPokemon() {
     if (id < totalPokemons) {
         id++
@@ -96,6 +98,28 @@ function next10Pokemon() {
         id = id + 10
     } 
     getPokeData(id)
+}
+
+function goToDetails(){
+    document.getElementById('details').style.display = "block"
+    getPokeDataDetails(id)
+}
+
+function goToHome(){
+    document.getElementById('details').style.display = "none"
+}
+
+
+function getInputId() {
+    id = document.getElementById("input001").value
+    getPokeData(id)
+
+}
+
+function getInputName() {
+    id = document.getElementById("input002").value
+    getPokeData(id)
+
 }
 
 
